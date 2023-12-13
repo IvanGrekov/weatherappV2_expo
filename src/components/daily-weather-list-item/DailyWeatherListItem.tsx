@@ -34,7 +34,7 @@ export default function DailyWeatherListItem({
 
             <WeatherItemTemperature maxTemperature={max} minTemperature={min} />
 
-            <WeatherIcon weatherIconCode={icon} />
+            <WeatherIcon weatherIconCode={icon} isDailyVariant={true} />
 
             <WeatherItemWind windDeg={windDeg} windSpeed={windSpeed} />
 
